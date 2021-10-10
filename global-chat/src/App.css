@@ -1,0 +1,63 @@
+body {
+  overflow : hidden;
+}
+
+.title {
+  letter-spacing: 6px;
+}
+
+.align-items-center {
+  display: flex; 
+  align-items: center;  /*Aligns vertically center */
+  justify-content: center; /*Aligns horizontally center */
+}
+
+.login-container {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.user-image {
+  max-height: 50px; 
+  max-width: 50px;
+}
+
+.message-container {
+  height : 100vh;
+  overflow-y : scroll;
+  overflow-x : hidden;
+  direction: ltr;
+
+}
+
+.message-container::-webkit-scrollbar {
+  width: 20px;
+}
+
+
+.message-container::-webkit-scrollbar-thumb {
+  border: 5px solid transparent;
+  border-radius: 100px;
+  background-color: #8070d4;
+  background-clip: content-box;
+}
+
+.chat-footer {
+  position : fixed;
+  bottom : 0;
+  width : 100%;
+  overflow-x : hidden;
+}
+
+.emoji-picker {
+  position : fixed;
+  bottom : 0;
+  width : 100%;
+  z-index: 2;
+}
+
+
