@@ -1,4 +1,4 @@
-<h1 align="center">Sebastian Coronado Portfolio</h1>
+<h1 align="center">TALKANGER</h1>
 
 ## About The Project
 
@@ -6,13 +6,15 @@
 
 ## Links
 
-- [Repo](https://github.com/coronado03/personal-portfolio "Portfolio Repo")
+- [Repo](https://github.com/coronado03/Talkanger "Portfolio Repo")
 
-- [Bugs](https://github.com/coronado03/personal-portfolio/issues "Issues Page")
+- [Bugs](https://github.com/coronado03/Talkanger/issues "Issues Page")
 
 ## Screenshots
 
-![Home Page](/public/read-me/screenshot.png "Home Page")
+![Home Page](global-chat/public/read-me-home.png "Home Page")
+![Home Page](global-chat/public/read-me-app.png "Home Page")
+
 
 ## Available Commands
 
@@ -43,8 +45,9 @@ For running the server file on you can use this command.
 
 ## Built With
 
-- React -> Next.js
+- React 
 - Node
+- Socket.io
 - NPM
 - Webpack
 - HTML
@@ -53,11 +56,7 @@ For running the server file on you can use this command.
 
 ## Future Updates
 
-- Adding better CSS animations
-
-- Adding more projects and fixing live demos
-
-- Adding social media links
+- Future UI changes
 
 ## Author
 
